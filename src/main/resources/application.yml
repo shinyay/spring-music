@@ -7,7 +7,9 @@ management:
     web:
       exposure:
         include: "*"
-
+  endpoint:
+    shutdown:
+      enabled: true
 ---
 spring:
   profiles: mysql
